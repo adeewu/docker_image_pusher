@@ -6,3 +6,4 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 jpomdocker/jpom
 lscr.io/linuxserver/qbittorrent
+aoshiguchen/neutrino-proxy-server
