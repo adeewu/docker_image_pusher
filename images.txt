@@ -10,4 +10,4 @@
 #slcnx/fastgithub
 #slcnx/ubuntu:18.04
 #portainer/portainer-ce
-lllllllillllllillll/dweebui
+mitmproxy/mitmproxy
