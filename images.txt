@@ -10,4 +10,5 @@
 #slcnx/fastgithub
 #slcnx/ubuntu:18.04
 #portainer/portainer-ce
-mitmproxy/mitmproxy
+#mitmproxy/mitmproxy
+requirecool/anyproxy
