@@ -124,7 +124,7 @@ jobs:
               {
                   "msgtype": "markdown",
                   "markdown": {
-                      "content": "开始拉取`${line}`镜像"
+                      "content": "开始拉取`'${line}'`镜像"
                   }
               }'
         
@@ -171,7 +171,7 @@ jobs:
               {
                   "msgtype": "markdown",
                   "markdown": {
-                      "content": "开始推送`${line}`镜像\n镜像地址：`$new_image`"
+                      "content": "开始推送`'${line}'`镜像\n镜像地址：`'$new_image'`"
                   }
               }'
 
