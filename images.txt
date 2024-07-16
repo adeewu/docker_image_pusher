@@ -11,4 +11,5 @@
 #slcnx/ubuntu:18.04
 #portainer/portainer-ce
 #mitmproxy/mitmproxy
-requirecool/anyproxy
+#requirecool/anyproxy
+ubuntu/prometheus
