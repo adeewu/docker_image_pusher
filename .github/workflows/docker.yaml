@@ -108,6 +108,7 @@ jobs:
             fi
 
             # 企业微信通知
+            echo 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=$NOTIFY_KEY'
             curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=$NOTIFY_KEY' \
               -H 'Content-Type: application/json' \
               -d '
