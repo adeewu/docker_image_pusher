@@ -21,6 +21,16 @@ jobs:
     steps:
     - name: Before freeing up disk space
       run: |
+        # 企业微信通知
+        curl "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${NOTIFY_KEY}" \
+          -H 'Content-Type: application/json' \
+          -d '
+          {
+              "msgtype": "markdown",
+              "markdown": {
+                  "content": "开始执行拉取镜像"
+              }
+          }'
         echo "Before freeing up disk space"
         echo "=============================================================================="
         df -hT
@@ -108,8 +118,7 @@ jobs:
             fi
 
             # 企业微信通知
-            echo "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${NOTIFY_KEY}"
-            curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${NOTIFY_KEY}' \
+            curl "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${NOTIFY_KEY}" \
               -H 'Content-Type: application/json' \
               -d '
               {
@@ -156,7 +165,7 @@ jobs:
             docker tag $image $new_image
 
             # 企业微信通知
-            curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=$NOTIFY_KEY' \
+            curl "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${NOTIFY_KEY}" \
               -H 'Content-Type: application/json' \
               -d '
               {
@@ -180,3 +189,14 @@ jobs:
             echo "=============================================================================="     
             
         done < images.txt
+
+        # 企业微信通知
+        curl "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${NOTIFY_KEY}" \
+          -H 'Content-Type: application/json' \
+          -d '
+          {
+              "msgtype": "markdown",
+              "markdown": {
+                  "content": "执行完成拉取镜像"
+              }
+          }'
