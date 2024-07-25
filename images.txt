@@ -12,4 +12,10 @@
 #portainer/portainer-ce
 #mitmproxy/mitmproxy
 #requirecool/anyproxy
-ubuntu/prometheus
+#ubuntu/prometheus
+mysql:8.0
+redis:6-alpine
+uozi/nginx-ui
+portainer/portainer-ee
+erikdubbelboer/phpredisadmin
+loicsharma/baget
