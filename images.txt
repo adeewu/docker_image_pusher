@@ -13,9 +13,10 @@
 #mitmproxy/mitmproxy
 #requirecool/anyproxy
 #ubuntu/prometheus
-mysql:8.0
-redis:6-alpine
-uozi/nginx-ui
-portainer/portainer-ee
-erikdubbelboer/phpredisadmin
-loicsharma/baget
+#mysql:8.0
+#redis:6-alpine
+#uozi/nginx-ui
+#portainer/portainer-ee
+#erikdubbelboer/phpredisadmin
+#loicsharma/baget
+dpanel/dpanel
