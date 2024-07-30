@@ -19,4 +19,5 @@
 #portainer/portainer-ee
 #erikdubbelboer/phpredisadmin
 #loicsharma/baget
-dpanel/dpanel
+#dpanel/dpanel
+slcnx/fastgithub
