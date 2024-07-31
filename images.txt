@@ -20,4 +20,5 @@
 #erikdubbelboer/phpredisadmin
 #loicsharma/baget
 #dpanel/dpanel
-slcnx/fastgithub
+#slcnx/fastgithub
+portainer/portainer-ee:2.20.3-alpine
