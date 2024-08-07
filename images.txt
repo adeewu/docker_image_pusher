@@ -22,5 +22,6 @@
 #dpanel/dpanel
 #slcnx/fastgithub
 #portainer/portainer-ee:2.20.3-alpine
-mariadb:10.8.2
-openspug/spug-service
+#mariadb:10.8.2
+#openspug/spug-service
+lllllllillllllillll/dweebui
