@@ -27,5 +27,3 @@
 #lllllllillllllillll/dweebui
 --platform=linux/arm64 docker.io/redis:6.2-alpine
 --platform=linux/arm64 docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0
---platform=linux/arm64 ghcr.io/immich-app/immich-server:release
---platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
