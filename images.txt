@@ -24,4 +24,8 @@
 #portainer/portainer-ee:2.20.3-alpine
 #mariadb:10.8.2
 #openspug/spug-service
-lllllllillllllillll/dweebui
+#lllllllillllllillll/dweebui
+docker.io/redis:6.2-alpine@sha256:e3b17ba9479deec4b7d1eeec1548a253acc5374d68d3b27937fcfe4df8d18c7e
+docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0@sha256:90724186f0a3517cf6914295b5ab410db9ce23190a2d9d0b9dd6463e3fa298f0
+ghcr.io/immich-app/immich-server:release
+ghcr.io/immich-app/immich-machine-learning:release
