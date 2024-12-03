@@ -25,5 +25,6 @@
 #mariadb:10.8.2
 #openspug/spug-service
 #lllllllillllllillll/dweebui
---platform=linux/arm64 docker.io/redis:6.2-alpine
---platform=linux/arm64 docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0
+#--platform=linux/arm64 docker.io/redis:6.2-alpine
+#--platform=linux/arm64 docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0
+aidotnet/fast-gateway
